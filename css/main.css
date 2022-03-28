@@ -102,7 +102,8 @@
                 }
                 
                 .name-banner {
-                    background-image: url('../img/nev-sit.png');
+                    background-image: url('../img/nev-sit-wide.png');
+                    background-position: top;
                     background-repeat: no-repeat;
                     width: 100%;
                     background-size: cover;
@@ -112,10 +113,21 @@
                     justify-content: center;
                     align-items: flex-end;
                 }
+
+                .main-title{
+                    font-size: 4rem;
+                }
                 
                 nav {
                     font-family: "Nanum Myeongjo";
+                    background-color: #222;
                 }
+
+                a.nav-link{
+                    color: white;
+                }
+
+    
                 
                 #about-me {
                     background-color: #525c4b;
@@ -130,10 +142,7 @@
                     max-height: 500px;
 
                 }
-                
-                #media-carousel {
-                    margin: 60px;
-                }
+            
                 
                 #resume {
                     background-color: #525c4b;
@@ -150,11 +159,20 @@
                     background-color: #ccc;
                     padding: 50px;
                 }
+
+                iframe{
+                width: 80%;
+                min-height: 300px;
+                margin: 30px 0;
+                }
                 
                 #contact {
                     background-color: #222;
                     color: white;
                 }
+
+
+                
                 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -236,7 +254,6 @@
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-                
                 @media only screen and (min-width: 35em) {
                     /* Style adjustments for viewports that meet the condition */
                 }
