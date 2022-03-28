@@ -171,6 +171,15 @@
                     color: white;
                 }
 
+                .fa-brands{
+                    padding: 15px;
+                    color: white;
+                }
+
+                .fa-brands:hover{
+                    color: #b3d4fc;
+                }
+
                 .reveal{
                     position: relative;
                     transform: translateY(100px);
